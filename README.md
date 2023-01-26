@@ -1,10 +1,10 @@
 # Vertex model of growing neural tube
 
-The following python 3 implementation was used in 
+The following python 3 implementation of vertex model was used in 
 
 > Bocanegra L, Singh A, Hannezo E, Zagorski M, Kicheva A. Cell cycle dynamic control fluidity of the developing mouse neuroepithelium (2023). (accepted for publication in *Nature Physics*)
 
-This implementation was based on the python 2 implementation published along
+This implementation was based on the python 2 implementation of vertex model published along
 
 > Guerrero P, Perez-Carrasco R, Zagorski M, Page D, Kicheva A, Briscoe J, Page KM. Neuronal differentiation influences progenitor arrangement in the vertebrate neuroepithelium (2019). *Development*, **146**(23) [https://doi.org/10.1242/dev.176297](https://doi.org/10.1242/dev.176297)
 
