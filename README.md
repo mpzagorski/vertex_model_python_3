@@ -39,7 +39,7 @@ The description of the parameters used can be found in ‘run_main_simulation.py
 
 If after installing all relevant packages, the execution of the code raises the following type of error
 
-```python
+```cmd
 ValueError: When changing to a larger dtype, its size must be a divisor of the total size in bytes of the last axis of the array.
 ```
 
