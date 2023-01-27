@@ -14,8 +14,8 @@ from run_select_noise import set_OU_noise, set_flags, set_age_STD
 
 ####Order of parameters in the command line: #after 2020.07.22
 #K G L sim_type viscosity T1_eps expansion_constant diff_rate_hours life_span time_start time_end time_unit Lambda_tau Lambda_std age_STD random_seed
-#sys.argv = [sys.argv[0], 1.0, 0.12, -0.074, 0, 0.02, 0.01, 50, 0, 100, 11, 21, 10, 0.1282, 0.01, 0.45, 12348, "OUT"] #comment out when running from a command line :)
-#typical command line: python3 main_run_simulation.py 1.0 0.12 -0.074 0 0.02 0.01 50 0 100 11 21 10 0.1282 0.01 0.45 12348 ./OUT
+#sys.argv = [sys.argv[0], 1.0, 0.12, -0.074, 0, 0.02, 0.01, 50, 0, 100, 11, 21, 10, 0.1282, 0.02, 0.45, 12345, "OUT"] #comment out when running from a command line :)
+#typical command line: python3 main_run_simulation.py 1.0 0.12 -0.074 0 0.02 0.01 50 0 100 11 21 10 0.1282 0.02 0.45 12345 ./OUT
 
 print(len(sys.argv))    
 IKNM_flag_new = 1       #IKNM switched ON (1) or OFF (0)
