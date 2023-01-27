@@ -1,2 +1,0 @@
-K	 G	 L	 type_	 viscosity	 T1_eps	 expansion_constant	 diff_rate_hours	 life_span	 time_start	 time_end	 time_unit	 L_tau	 L_std	 age_STD	 random_seed
-1	 0.12	 -0.074	 0	 0.02	 0.01	 50	 0	 100	 11	 21	 10	 0.1282	 0.02	 0.45	 12345
