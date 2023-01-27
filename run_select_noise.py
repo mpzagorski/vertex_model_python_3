@@ -261,7 +261,7 @@ def simulation_with_division_TYPE_noise(SIM_TYPE,cells,force,fout,foutD,foutDL,f
     properties = cells.properties
     properties['parent'] = cells.mesh.face_ids #save the ids to control division parents-daugthers 
     properties['ageingrate'] = rand.normal(1.0/lifespan,age_STD/lifespan,len(cells)) #degradation rate per each cell #MZ: np.random -> rand
-                                                                                     #age_STD=0.45 corresponds to variance 0.2025; before age_std = 0.2; MZ: 2020.16.04
+                                                                                     
     properties['ids_division'] = [] #save ids of the cell os the division when it's ready per each time step
     if SIM_TYPE == 1:
         properties['poisoned'] = np.zeros(len(cells)) ### to add diferenciation rate in PMN
