@@ -14,7 +14,7 @@ T1_CPUtimeB = 0.  #for debugging
 nT1 = 0.          #for debugging; #counts T1 transitions
 nT2 = 0.          #for debugging; #counts T2 transitions
 nD = 0          #for debugging;  #counts cell divisions
-age_STD = 0.45    #corresponds to variance 0.2025; by default age_std = 0.2; MZ: 2020.16.04
+age_STD = 0.45    #corresponds to variance 0.2025;
 T1_dict = {}      #for debugging; #counts number of occurences of T1 transition for a given edge
 #_MAX_CELLS = 10**5   #defined in mesh.py
 ######
@@ -23,10 +23,10 @@ dt= 0.001            #time step
 time_unit =1;        #unit_time = 1 means there are 1/dt time steps; unit_time = 10 means there are 10/dt steps between recording information events
 viscosity= 0.02    	#viscosity*dv/dt = F #default #!!!can be changed when simulation is initiated!!!
 T1_eps = 0.01       #default #!!!can be changed when simulation is initiated!!!
-T1_newf = 1.01       #edge length after T1 transition = T!_newf * T1_eps!!! NOT IMPLEMENTED yet!!! Farfadihar has 1.05, Fletcher up to 1.5
-#T1_eps = 0.         #switching of T1 transitions
+T1_newf = 1.01       #edge length after T1 transition = T!_newf * T1_eps !!!is fixed in mesh.py, changing here has no effect!!!
+
 A_c=1.3 #critical area
-#A_c=1.3 #critical area
+
 P= 0.0 #There is no boundary pressure in torous
 diff_rate_hours=0.05 #differentiation rate (1/h) #!!!can be changed when simulation is initiated!!!
 
