@@ -399,7 +399,7 @@ def _T1(edge, eps, rotate, reverse, vertices, face_id_by_edge):
     reverse[after_r] = before
 
     dv = vertices[:, e4]-vertices[:, e0]
-    l = T1_newf*eps/np.sqrt(dv[0]*dv[0]+dv[1]*dv[1]) #MZ: possibly 1.01 -> 1.05 as in Farfadihar -> or even 1.5 as in Kursawe
+    l = T1_newf*eps/np.sqrt(dv[0]*dv[0]+dv[1]*dv[1]) 
     dw = [dv[1]*l, -dv[0]*l]
 
     for i in [0, 1]:
@@ -436,7 +436,7 @@ def _T1_extended(edge, eps, rotate, reverse, vertices, face_id_by_edge):
     reverse[after_r] = before
 
     dv = vertices[:, e4]-vertices[:, e0]
-    l = T1_newf*eps/np.sqrt(dv[0]*dv[0]+dv[1]*dv[1]) #MZ: possibly 1.01 -> 1.05 as in Farhadifar -> or even 1.5 as in Kursawe
+    l = T1_newf*eps/np.sqrt(dv[0]*dv[0]+dv[1]*dv[1])
     dw = [dv[1]*l, -dv[0]*l]
 
     for i in [0, 1]:
