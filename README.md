@@ -2,7 +2,7 @@
 
 The following python 3 implementation of vertex model was used in 
 
-> Bocanegra L, Singh A, Hannezo E, Zagorski M, Kicheva A. Cell cycle dynamic control fluidity of the developing mouse neuroepithelium (2023). Nature Physics, [https://doi.org/10.1038/s41567-023-01977-w](https://doi.org/10.1038/s41567-023-01977-w)
+> Bocanegra L, Singh A, Hannezo E, Zagorski M, Kicheva A. Cell cycle dynamic control fluidity of the developing mouse neuroepithelium (2023). *Nature Physics*, [https://doi.org/10.1038/s41567-023-01977-w](https://doi.org/10.1038/s41567-023-01977-w)
 
 This implementation is based on the [original code](https://bitbucket.org/Pigueco/vertex_model_python_2.7/src/master/) published with:
 
